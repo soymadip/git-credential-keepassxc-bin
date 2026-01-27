@@ -1,19 +1,31 @@
-<h1><center>git-credential-keepassxc-bin</center></h1>
+<div align="center">
 
-AUR repository for [git-credential-keepassxc-bin](https://aur.archlinux.org/packages/git-credential-keepassxc-bin/), a binary package of [git-credential-keepassxc](https://github.com/Frederick888/git-credential-keepassxc)
+# git-credential-keepassxc-bin
+AUR package for [git-credential-keepassxc](https://github.com/Frederick888/git-credential-keepassxc)
+
+</div>
 
 ## Installation
 
-To install `git-credential-keepassxc-bin`, you can use an AUR helper like `yay` or `paru`. Here are the commands for both:
-
-- Using `yay`:
+### From [`my-repo`](https://mydehq.github.io/my-repo/) Repo
 
 ```bash
-yay -S git-credential-keepassxc-bin
+  curl -sL https://mydehq.github.io/my-repo/install | bash
+  sudo pacman -S git-credential-keepassxc-bin
 ```
 
-- Using `paru`:
+### From AUR
 
 ```bash
 paru -S git-credential-keepassxc-bin
+# or
+yay -S git-credential-keepassxc-bin
+```
+
+### Manually
+
+```bash
+git clone https://aur.archlinux.org/git-credential-keepassxc-bin.git
+cd git-credential-keepassxc-bin
+makepkg -si
 ```
